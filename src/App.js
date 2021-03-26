@@ -1,11 +1,10 @@
-import ColorBox from "./ColorBox";
+import TodoFeature from "./features/Todo";
 
 function App() {
   return (
     <section>
-      <ColorBox color="red" ></ColorBox>
-      <ColorBox color="yellow" name="Huy"></ColorBox>
-      <ColorBox color="green" name="Hoàng"></ColorBox>
+      <h3>Danh sách nhân viên</h3>
+      <TodoFeature></TodoFeature>
     </section>
   );
 }
