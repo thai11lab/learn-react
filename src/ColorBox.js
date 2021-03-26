@@ -11,4 +11,9 @@ ColorBox.propTypes={
     color : PropTypes.string.isRequired,
     name  : PropTypes.string.isRequired
 }
+
+//Mặc định nếu không có props có tên name thì sẽ gán giá trị mặc định là Đàm Anh Thái
+ColorBox.defaultProps={
+    name:"Đàm Anh Thái"
+}
 export default ColorBox;
