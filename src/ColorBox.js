@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function ColorBox(props) {
     const {color,name} = props;
     return (
@@ -5,4 +7,8 @@ function ColorBox(props) {
     );
 }
 
+ColorBox.propTypes={
+    color : PropTypes.string.isRequired,
+    name  : PropTypes.string.isRequired
+}
 export default ColorBox;
