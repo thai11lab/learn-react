@@ -1,0 +1,6 @@
+.ulList {}
+
+.ulList .complete {
+    text-decoration-line: line-through;
+    color: red;
+}

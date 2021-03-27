@@ -4,8 +4,8 @@ import AlbumFeature from "./features/Album";
 function App() {
   return (
     <section>
-      <h3>Danh sách bài hát</h3>
-      <AlbumFeature></AlbumFeature>
+      <h1>Danh sách công việc</h1>
+      <TodoFeature></TodoFeature>
     </section>
   );
 }
