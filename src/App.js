@@ -1,11 +1,11 @@
-import TodoFeature from "./features/Todo";
-import AlbumFeature from "./features/Album";
+import Count from "./features/Count";
+import Color from "./features/Color";
 
 function App() {
   return (
     <section>
-      <h3>Danh sách bài hát</h3>
-      <AlbumFeature></AlbumFeature>
+      <Count></Count>
+      <Color></Color>
     </section>
   );
 }
